@@ -47,7 +47,7 @@
 /**************************************************************************************************
  * MySQLi Real Escape String (tested) Method
  ***************************************************************************************************/
-   /* public function escape_values($posted_values): string
+    public function escape_values($posted_values): string
     {
         switch ($this->db_type) {
             case 'PDO':
