@@ -178,7 +178,7 @@
 /**************************************************************************************************
  * Get ID of Last Inserted Record Method
  ***************************************************************************************************/
-	/*public function last_id(){
+	public function last_id(){
         switch ($this->db_type) {
         case 'PDO':
                 return $this->connection->lastInsertId();
