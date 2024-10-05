@@ -62,7 +62,7 @@
 /**************************************************************************************************
  * Count Returned Results (tested) Method
  ***************************************************************************************************/
-    /*public function count_results($sql){
+    public function count_results($sql){
         switch ($this->db_type) {
             case 'PDO':
                 $res = $this->connection->prepare($sql);
@@ -82,7 +82,7 @@
 /**************************************************************************************************
  * Insert Query Method
  ***************************************************************************************************/
-   /* public function insert($table, $data){
+    public function insert($table, $data){
         ksort($data);
         $fieldDetails = NULL;
         $fieldNames = implode('`, `',  array_keys($data));
