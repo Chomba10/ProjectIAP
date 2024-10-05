@@ -170,7 +170,7 @@
 /**************************************************************************************************
  * Truncate Query (extracted) Method
  ***************************************************************************************************/
-   /* public function truncate($table){
+    public function truncate($table){
         $sth = "TRUNCATE $table";
         return $this->extracted($sth);
     }
