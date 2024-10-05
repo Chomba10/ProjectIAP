@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `gender` (
   PRIMARY KEY (`genderId`),
   UNIQUE KEY `gender` (`gender`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*
+
 DROP TABLE IF EXISTS `roles`;
 CREATE TABLE IF NOT EXISTS `roles` (
   `roleId` tinyint(1) NOT NULL AUTO_INCREMENT,
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `roles` (
   PRIMARY KEY (`roleId`),
   UNIQUE KEY `role` (`role`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
+/*
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `userId` bigint(10) NOT NULL AUTO_INCREMENT,
