@@ -151,7 +151,7 @@
 /**************************************************************************************************
  * Delete Query (extracted) (tested) Method
  ***************************************************************************************************/
-   /* public function delete($table,$where){
+    public function delete($table,$where){
         $wer = '';
         if(is_array($where)){
             foreach ($where as $clave=>$value){
