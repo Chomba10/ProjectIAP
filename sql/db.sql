@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   KEY `genderId` (`genderId`),
   KEY `roleId` (`roleId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*
+
 ALTER TABLE `gender`
   ADD CONSTRAINT `gender_ibfk_1` FOREIGN KEY (`genderId`) REFERENCES `users` (`genderId`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
