@@ -126,7 +126,7 @@
 /**************************************************************************************************
  * Update Query (extracted) (tested) Method
  ***************************************************************************************************/
-   /* public function update($table, $data, $where){
+    public function update($table, $data, $where){
         $wer = '';
         if(is_array($where)){
             foreach ($where as $clave=>$value){
