@@ -109,7 +109,7 @@
 /***************************************************************************************************
 * Select Query While Loop From a DataBase (tested) Method
  ***************************************************************************************************/
-   /* public function select_while($sql){
+    public function select_while($sql){
         switch ($this->db_type) {
             case 'PDO':
                 $result = $this->connection->prepare($sql);
