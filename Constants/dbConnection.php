@@ -93,7 +93,7 @@
 /**************************************************************************************************
 * Select Query From a DataBase Method
  ***************************************************************************************************/
-  /*  public function select($sql){
+    public function select($sql){
         switch ($this->db_type) {
             case 'PDO':
                 $result = $this->connection->prepare($sql);
