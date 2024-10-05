@@ -195,7 +195,7 @@
      * @param string $sth
      * @return bool|string|void
      */
-   /* public function extracted(string $sth)
+   public function extracted(string $sth)
     {
         switch ($this->db_type) {
             case 'PDO':
